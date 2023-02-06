@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    font-family: "Open Sans", "sans-serif";
+    color: #ef8902;
+    font-size: 1.6rem;
+}
+
+h2{
+    font-family: "Open Sans", "sans-serif";
+    color:#2cb390;
+    font-size: 1.2rem;
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    color: #212529;
+    font-size: 1rem;
+}
+
+a{
+    font-family: 'Open Sans', sans-serif;
+    color: #a7a7a7;
+    transition: 0.1s ease-out;
+    cursor: pointer;
+}
+
+p{
+    font-family: "Open Sans", "sans-serif";
+}
+
+.right1{
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left:70px;
+    /* border: 2px solid rgb(0, 81, 255); */
+}
+
+/* .left{
+    border: 2px solid rgb(0, 81, 255);
+} */
+
+.left img{
+    width:500px;
+}
+
+.contain{
+    padding-left: 85px;
+    padding-right: 45px;
+    /* border: 2px solid red; */
+}
+
+.right2{
+    flex-direction: column;
+    align-items: flex-start;
+    /* border: 2px solid rgb(0, 81, 255); */
+}
+
+.right{
+    flex-direction: column;
+    justify-content: flex-start;
+    /* border: 2px solid rgb(0, 81, 255); */
+}
+
+.style{
+    color: #0d6efd; 
+    text-decoration: underline; 
+    font-weight: 500;
+}
+
+.box{
+    padding-left: 85px;
+}

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.outer-box{
+    height: 100vh;
+    width: 98vw;
+}
+
+.inner-box{
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background-color: rgba(167, 197, 191, 0.322);
+    border-radius: 25px;
+    height: 600px;
+    box-shadow: 0 0 10px #35383785;
+    padding-bottom: 80px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.inner-box:hover{
+    box-shadow: 0 0 10px #2cb390;
+    transition: 0.5s ease-out;
+}
+
+.contact-body{
+    margin-top: 20px 0;
+}
+
+.contact-body p{
+    margin-top: 10px 0;
+}
+
+.contact-body p label{
+    display: block;
+}
+
+.contact-body p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #cccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+}
+
+#submit{
+    background-color:  white;
+    color: black;
+    font-weight: 800;
+    border-radius: 4px;
+    padding: 10px 70px;
+    border: 2px solid #db3e2d;
+}
+#submit:hover{
+    background-color:  #db3e2d;
+    color: black;
+    font-weight: 800;
+    border-radius: 8px;
+    padding: 10px 70px;
+}
+
+
+
+
+
